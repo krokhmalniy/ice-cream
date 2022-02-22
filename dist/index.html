@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Работает? Не трогай</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g==" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Titan+One&display=swap" rel="stylesheet">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/slick.8c92db64.css">
+    <link rel="stylesheet" href="/slick-theme.9845e4aa.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="shortcut icon" type="image/png" href="/fav_icon.0d39c369.png">
+    <script src="/slick.8c92db64.js"></script><script src="/slick-theme.9845e4aa.js"></script><link rel="stylesheet" href="/src.e31bb0bc.css"></head>
+    
+    
+  
+  <body>
+    <!-- Так добавляются фрагменты в главные HTML-файлы страниц. -->
+    <header class="header">
+  <div class="header__container container">
+    <!-- =====Logo===== -->
+
+    <a class="header__link wow bounceIn" href="#" lang="en">
+      <picture>
+        <source srcset="/logo.6023b87e.png 1x,/logo@2x.aa351af1.png 2x">
+        <img src="/logo.6023b87e.png" width="199" alt="Логотип вкусное мороженое">
+      </picture>
+    </a>
+
+    <nav class="header__nav wow bounceIn">
+      <ul class="sait-nav">
+        <li class="sait-nav__item">
+          <a class="sait-nav__link sait-nav__link--current">Home</a>
+        </li>
+        <li class="sait-nav__item"><a class="sait-nav__link" href="#about">About us</a></li>
+        <li class="sait-nav__item">
+          <a class="sait-nav__link" href="#made">How it&#39;s made?</a>
+        </li>
+        <li class="sait-nav__item">
+          <a class="sait-nav__link" href="#products">Our products</a>
+        </li>
+        <li class="sait-nav__item"><a class="sait-nav__link" href="#contacts">Contact</a></li>
+      </ul>
+    </nav>
+
+    <button type="button" class="header-burger" header-modal-open="">
+      <span class="header-modal_lines"></span>
+      <span class="header-modal_lines"></span>
+      <span class="header-modal_lines"></span>
+    </button>
+
+    <div class="backdrop is-hidden header-modal" header-modal="">
+      <div class="header-modal__wrapper">
+        <button class="backdrop__btn-close" type="button" header-modal-close="">
+          <svg class="header-modal_exit">
+            <use href="/icon-close.46375b5b.svg#icon-close"></use>
+          </svg>
+        </button>
+
+        <button class="backdrop_btn-by wow pulse" data-wow-iteration="infinite" type="button">
+          Buy now
+          <svg class="buy-now__icon">
+            <use href="/vector.eefebeb5.svg#icon-check-mark"></use>
+          </svg>
+        </button>
+
+        <ul class="header-modal_nav">
+          <li class="header-modal_nav__item">
+            <a class="header-modal_nav__link header-modal_nav__link--current">Home</a>
+          </li>
+          <li class="header-modal_nav__item">
+            <a class="header-modal_nav__link" href="#about" header-modal-close1="">About us</a>
+          </li>
+          <li class="header-modal_nav__item">
+            <a class="header-modal_nav__link" href="#made" header-modal-close2="">How it&#39;s made?</a>
+          </li>
+          <li class="header-modal_nav__item">
+            <a class="header-modal_nav__link" href="#products" header-modal-close3="">Our products</a>
+          </li>
+          <li class="header-modal_nav__item">
+            <a class="header-modal_nav__link" href="#contacts" header-modal-close4="">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <button class="buy-now wow pulse" data-wow-iteration="infinite" type="button">
+      Buy now
+      <svg class="buy-now__icon">
+        <use href="/vector.eefebeb5.svg#icon-check-mark"></use>
+      </svg>
+    </button>
+  </div>
+</header>
+
+    <div class="hero">
+  <div class="container container-position wow bounceInUp">
+    <div class="hero__wrapper-title">
+      <h1 class="hero__title wow fadeIn" data-wow-delay="0.6s">
+        ice cream made with
+        <span class="hero__title-changed wow fadeIn" data-wow-delay="1.2s">passion</span>
+      </h1>
+    </div>
+    <div class="hero__wrapper-button wow fadeIn" data-wow-delay="1.8s">
+
+      <a class="hero__link-products" href="#products">
+      <div class="hero__products" type="button">        
+          Products               
+      </div>
+      </a>
+
+      <button class="hero__how-made wow pulse" data-wow-iteration="infinite" type="button">
+        How it&#x2019;s made?
+      </button>
+    </div>
+
+    <div class="hero__text-container wow fadeIn" data-wow-delay="3.6s">
+      <p class="hero__text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+        labore et
+      </p>
+      <button class="hero__button-modal" type="button" data-modal-open="">&#10132;</button>
+    </div>
+
+    <div class="hero__price-cafes wow fadeIn" data-wow-delay="2.4s">
+      <svg class="hero__icon-cafes">
+        <use href="/numbers.fc99b9b3.svg#icon-group-16"></use>
+      </svg>
+    </div>
+
+    <div class="hero__price-food wow fadeIn" data-wow-delay="3s">
+      <svg class="hero__icon-food">
+        <use href="/numbers.fc99b9b3.svg#icon-group-23"></use>
+      </svg>
+    </div>
+  </div>
+</div>
+
+    <main>
+      <section class="products" id="products">
+  <div class="container">
+    <p class="products__subtitle wow fadeInUpBig" data-wow-delay="0.7s">100% natural</p>
+    <h2 class="products__title wow fadeInUpBig" data-wow-delay="1s">products</h2>
+
+    <ul class="products__card-set wow bounceInUp">
+      <li class="products-card ice-cream wow rollIn" data-wow-delay="0.6s">
+        <h3 class="products-card__title ice-cream wow fadeInDownBig" data-wow-delay="1.5s">
+          ice cream
+        </h3>
+        <p class="products-card__description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis aute irure dolor pariatur
+          dolore magnased do eiusmod tempor incididunt ut <span class="dots">...</span><span class="more">labore et. dolore magna aliqua facilisis. Duis aute irure dolor pariatur dolore magna
+            aliqua facilisis.Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet, consectetur
+            consectetur adipiscing elit.
+          </span>
+        </p>
+        <button class="products-card__btn wow pulse" data-wow-iteration="infinite" type="button" aria-label="Read More">
+          &#10132;
+        </button>
+      </li>
+      <li class="products-card ice-coffee wow rollIn" data-wow-delay="0.9s">
+        <h3 class="products-card__title ice-coffee wow fadeInDownBig" data-wow-delay="1.8s">
+          ice coffee
+        </h3>
+        <p class="products-card__description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis aute irure dolor pariatur
+          dolore magnased do eiusmod tempor incididunt ut <span class="dots">...</span><span class="more">labore et. dolore magna aliqua facilisis.Lorem ipsum dolor sit amet labore et. dolore
+            magna aliqua facilisis.Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit.consectetur adipiscing elitlabore et. dolore magna</span>
+        </p>
+        <button class="products-card__btn wow pulse" data-wow-iteration="infinite" type="button" aria-label="Read More">
+          &#10132;
+        </button>
+      </li>
+      <li class="products-card milkshakes wow rollIn" data-wow-delay="1.2s">
+        <h3 class="products-card__title milkshakes wow fadeInDownBig" data-wow-delay="2.1s">
+          milkshakes
+        </h3>
+        <p class="products-card__description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis aute irure dolor pariatur
+          dolore magnased do eiusmod tempor incididunt ut<span class="dots">...</span><span class="more">labore et. dolore magna aliqua facilisis.Lorem ex ea commodo consequat. aliqua
+            facilisis.Lorem ex ea consectetur adipiscing commodo consequat.ex ea commodo consequat.
+            aliqua facilisis.
+          </span>
+        </p>
+        <button class="products-card__btn wow pulse" data-wow-iteration="infinite" type="button" aria-label="Read More">
+          &#10132;
+        </button>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section class="about wow bounceInUp" id="made">
+  <h1 class="visually-hidden">About Us</h1>
+  
+  <div class="container">
+
+    <p class="about__label wow fadeInUpBig" data-wow-delay="0.3s">tradition and love</p>
+    <h2 class="about__title wow fadeInUpBig" data-wow-delay="0.5s">how it’s<br> made?</h2>
+
+    <div class="about__wrapper">
+      <img class="about__img wow zoomIn" data-wow-delay="1s" srcset="/milk.0a0970c7.png 1x,/milk@2x.e9455315.png 2x" src="/milk.0a0970c7.png" alt="Cute cow">
+      <article class="about__article">
+
+        <h3 class="visually-hidden">About</h3>
+        <p class="about__text wow fadeInLeftBig" data-wow-delay="0.7s">
+          Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel justo cursus, faucibus lorem eget, egestas eros. Maecenas eleifend erat at justo fringilla.
+        </p>
+        <p class="about__text wow fadeInRightBig" data-wow-delay="0.7s">
+          Curabitur lacinia enim at ex blandit, vel pellentesque odio elementum. Mauris rhoncus orci in imperdiet placerat. Vestibulum euismod nisl suscipit ligula volutpat, a feugiat urna maximus. Cras massa nibh, tincidunt.
+
+        </p>
+        <p class="about__text wow fadeInLeftBig" data-wow-delay="0.7s">
+          Aliquam erat volutpat. Aenean accumsan.
+        </p>
+        <button class="about-btn md-trigger md-setperspective wow pulse" data-wow-iteration="infinite" type="button" data-modal="modal-about">
+          Read more
+          <svg class="about-btn__icon" width="12" height="12" aria-label="Article switch">
+            <use class="about-btn__arrow" href="/icon_defs.c4808b56.svg#icon-arrow"></use>
+          </svg>
+        </button>
+      </article>
+    </div>
+  </div>
+
+  <div class="md-modal md-about-effect" id="modal-about">
+    <div class="md-content">
+      <h3>WHY US?</h3>
+      <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit:</p>
+        <ul>
+          <li>
+            <strong>Tasty:</strong> lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo, ullam. Impedit vel ab facere, iusto nesciunt corporis!
+          </li>
+          <li>
+            <strong>Useful:</strong> lorem ipsum dolor sit amet consectetur adipisicing elit. Aut soluta ipsa aperiam magnam ratione!
+          </li>
+          <li><strong>Natural:</strong> Lorem ipsum dolor sit amet consectetur!</li>
+        </ul>
+        <button class="md-close wow pulse" data-wow-iteration="infinite" type="button">
+          Buy now
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="md-overlay"></div>
+</section>
+      <section class="advantages">
+  <div class="container centered wow bounceInUp">
+    <ul class="advantages-list">
+      <li class="advantages-item">
+        <h2 class="advantages-headline advantages-glass">721</h2>
+        <p class="advantages-description">
+          Aliquam ac dui vel dui vulputate consectetur. Mauris massa.
+        </p>
+      </li>
+      <li class="advantages-item">
+        <h2 class="advantages-headline advantages-apple">16KG</h2>
+        <p class="advantages-description">
+          Aliquam ac dui vel dui vulputate consectetur. Mauris massa.
+        </p>
+      </li>
+      <li class="advantages-item">
+        <h2 class="advantages-headline advantages-heart">84</h2>
+        <p class="advantages-description">
+          Aliquam ac dui vel dui vulputate consectetur. Mauris massa.
+        </p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section class="gallery" id="about">
+  <h2 class="visually-hidden">gallery</h2>
+  <div class="container centered wow bounceInUp">
+    <img class="gallery-image" srcset="/pictures.92bdafd8.png 1x,/pictures@2x.fdf61b80.png 2x" src="/pictures.92bdafd8.png" alt="" width="1280">
+  </div>
+</section>
+
+      <section class="customer-review wow fadeIn" data-wow-duration="10s">
+  <div class="slider">
+    <div class="container customer-slider-container">
+      <picture>
+        <source srcset="/girl_2.aa510b3f.jpg 1x,/girl_2@2x.830e39fb.jpg 2x">
+        <img src="/girl_2.aa510b3f.jpg" alt="Emily" class="customer-img">
+      </picture>
+      <div class="review-article-container">
+        <article class="review-article review-article--before">
+          <svg class="customer-untitled">
+            <use href="/symbol-defs.4fba6ab5.svg#icon-untitled"></use>
+          </svg>
+          Nullam viverra consectetuer. Quisque cursus et, porttitor risus. Aliquam sem. In hendrerit
+          nulla quam nunc, accumsan congue. Lorem ipsum primis in nibh vel risus.
+        </article>
+      </div>
+      <div class="slider-container">
+        <ul class="dots">
+          <li class="dots__li">
+            <svg class="dots__svg">
+              <use href="/symbol-defs.4fba6ab5.svg#icon-Ellipse-5"></use>
+            </svg>
+          </li>
+          <li class="dots__li">
+            <svg class="dots__svg">
+              <use href="/symbol-defs.4fba6ab5.svg#icon-Ellipse-5"></use>
+            </svg>
+          </li>
+          <li class="dots__li">
+            <svg class="dots__svg">
+              <use href="/symbol-defs.4fba6ab5.svg#icon-Ellipse-5"></use>
+            </svg>
+          </li>
+        </ul>
+        <p class="customer-name">Emily, Los Angeles</p>
+      </div>
+    </div>
+    <div class="container customer-slider-container">
+      <picture>
+        <source srcset="/girl_1.d565843b.jpg 1x,/girl_1@2x.0ae55491.jpg 2x">
+        <img src="/girl_1.d565843b.jpg" alt="Emily" class="customer-img">
+      </picture>
+      <div class="review-article-container">
+        <article class="review-article review-article--before">
+          <svg class="customer-untitled">
+            <use href="/symbol-defs.4fba6ab5.svg#icon-untitled"></use>
+          </svg>
+          Nullam viverra consectetuer. Quisque cursus et, porttitor risus. Aliquam sem. In hendrerit
+          nulla quam nunc, accumsan congue. Lorem ipsum primis in nibh vel risus.
+        </article>
+      </div>
+      <div class="slider-container">
+        <ul class="dots">
+          <li class="dots__li">
+            <svg class="dots__svg">
+              <use href="/symbol-defs.4fba6ab5.svg#icon-Ellipse-5"></use>
+            </svg>
+          </li>
+          <li class="dots__li">
+            <svg class="dots__svg">
+              <use href="/symbol-defs.4fba6ab5.svg#icon-Ellipse-5"></use>
+            </svg>
+          </li>
+          <li class="dots__li">
+            <svg class="dots__svg">
+              <use href="/symbol-defs.4fba6ab5.svg#icon-Ellipse-5"></use>
+            </svg>
+          </li>
+        </ul>
+        <p class="customer-name">Emily, Los Angeles</p>
+      </div>
+    </div>
+    <div class="container customer-slider-container">
+      <picture>
+        <source srcset="/girl_3.8946d3d4.jpg 1x,/girl_3@2x.9253e500.jpg 2x">
+        <img src="/girl_3.8946d3d4.jpg" alt="Emily" class="customer-img">
+      </picture>
+      <div class="review-article-container">
+        <article class="review-article review-article--before">
+          <svg class="customer-untitled">
+            <use href="/symbol-defs.4fba6ab5.svg#icon-untitled"></use>
+          </svg>
+          Nullam viverra consectetuer. Quisque cursus et, porttitor risus. Aliquam sem. In hendrerit
+          nulla quam nunc, accumsan congue. Lorem ipsum primis in nibh vel risus.
+        </article>
+      </div>
+      <div class="slider-container">
+        <ul class="dots">
+          <li class="dots__li">
+            <svg class="dots__svg">
+              <use href="/symbol-defs.4fba6ab5.svg#icon-Ellipse-5"></use>
+            </svg>
+          </li>
+          <li class="dots__li">
+            <svg class="dots__svg">
+              <use href="/symbol-defs.4fba6ab5.svg#icon-Ellipse-5"></use>
+            </svg>
+          </li>
+          <li class="dots__li">
+            <svg class="dots__svg">
+              <use href="/symbol-defs.4fba6ab5.svg#icon-Ellipse-5"></use>
+            </svg>
+          </li>
+        </ul>
+        <p class="customer-name">Emily, Los Angeles</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- <div class="slider">
+        <div class="container customer-slider-container">
+            <picture>          
+                <source srcset="./images/girl_2.jpg 1x, ./images/girl_2@2x.jpg 2x">
+                <img src="./images/girl_2.jpg" alt="Emily"  class="customer-img"/>
+            </picture>
+            <div class="review-article-container">
+                <article class="review-article review-article--before"> 
+                    <svg class="customer-untitled">
+                        <use href="/images/symbol-defs.svg#icon-untitled"/> 
+                    </svg>
+                    Nullam viverra consectetuer. Quisque cursus et, porttitor risus. Aliquam sem. In hendrerit nulla quam nunc, accumsan congue. Lorem ipsum primis in nibh vel risus.
+                </article>
+            </div>
+                <div class="slider-container">
+                    <ul class="dots">
+                        <li class="dots__li">
+                            <svg class="dots__svg">
+                                <use href="/images/symbol-defs.svg#icon-Ellipse-5"/>
+                            </svg>
+                        </li>
+                        <li class="dots__li">
+                            <svg class="dots__svg">
+                                <use href="/images/symbol-defs.svg#icon-Ellipse-5"/>
+                            </svg>
+                        </li>
+                        <li class="dots__li">
+                            <svg class="dots__svg">
+                                <use href="/images/symbol-defs.svg#icon-Ellipse-5"/>
+                            </svg>
+                        </li>
+                    </ul>
+                    <p class="customer-name">Emily, Los Angeles</p>
+                </div>
+
+
+                <div class="container customer-slider-container">
+                    <picture>          
+                        <source srcset="./images/girl_1.jpg 1x, ./images/girl_1@2x.jpg 2x">
+                        <img src="./images/girl_1.jpg" alt="Emily"  class="customer-img"/>
+                    </picture>
+                    <div class="review-article-container">
+                        <article class="review-article review-article--before"> 
+                            <svg class="customer-untitled">
+                                <use href="/images/symbol-defs.svg#icon-untitled"/> 
+                            </svg>
+                            
+                            Nullam viverra consectetuer. Quisque cursus et, porttitor risus. Aliquam sem. In hendrerit nulla quam nunc, accumsan congue. Lorem ipsum primis in nibh vel risus.
+                        </article>
+                    </div>
+                        <div class="slider-container">
+                            <ul class="dots">
+                                <li class="dots__li">
+                                    <svg class="dots__svg">
+                                        <use href="/images/symbol-defs.svg#icon-Ellipse-5"/>
+                                    </svg>
+                                </li>
+                                <li class="dots__li">
+                                    <svg class="dots__svg">
+                                        <use href="/images/symbol-defs.svg#icon-Ellipse-5"/>
+                                    </svg>
+                                </li>
+                                <li class="dots__li">
+                                    <svg class="dots__svg">
+                                        <use href="/images/symbol-defs.svg#icon-Ellipse-5"/>
+                                    </svg>
+                                </li>
+                            </ul>
+                            <p class="customer-name">Emily, Los Angeles</p>
+                        </div>
+
+                        <div class="container customer-slider-container">
+                            <picture>          
+                                <source srcset="./images/girl_3.jpg 1x, ./images/girl_3@2x.jpg 2x">
+                                <img src="./images/girl_3.jpg" alt="Emily"  class="customer-img"/>
+                            </picture>
+                            <div class="review-article-container">
+                                <article class="review-article review-article--before"> 
+                                    <svg class="customer-untitled">
+                                        <use href="/images/symbol-defs.svg#icon-untitled"/> 
+                                    </svg>
+                                    Nullam viverra consectetuer. Quisque cursus et, porttitor risus. Aliquam sem. In hendrerit nulla quam nunc, accumsan congue. Lorem ipsum primis in nibh vel risus.
+                                </article>
+                            </div>
+                                <div class="slider-container">
+                                    <ul class="dots">
+                                        <li class="dots__li">
+                                            <svg class="dots__svg">
+                                                <use href="/images/symbol-defs.svg#icon-Ellipse-5"/>
+                                            </svg>
+                                        </li>
+                                        <li class="dots__li">
+                                            <svg class="dots__svg">
+                                                <use href="/images/symbol-defs.svg#icon-Ellipse-5"/>
+                                            </svg>
+                                        </li>
+                                        <li class="dots__li">
+                                            <svg class="dots__svg">
+                                                <use href="/images/symbol-defs.svg#icon-Ellipse-5"/>
+                                            </svg>
+                                        </li>
+                                    </ul>
+                                    <p class="customer-name">Emily, Los Angeles</p>
+                                </div> 
+            
+        </div>
+
+        </div>
+        </div>
+        </div>
+         -->
+</section>
+
+      <section class="contacts" id="contacts">
+  <div class="container container-contacts wow bounceInUp">
+    <h2 class="is-hidden">Contacts</h2>
+
+    <ul class="contacts__list">
+      <li class="contacts__item wow rollIn" data-wow-delay="0.6s">
+        <p class="contacts__label">Cafe</p>
+
+        <div class="contacts-wrapper">
+          <h3 class="contacts__title">Chicago</h3>
+          <p class="contacts__description">
+            Fusce ut velit laoreet, tempus arcu molestie vulputate
+          </p>
+        </div>
+
+        <div class="contacts-wrapper">
+          <ul class="schedule__list">
+            <li class="schedule__item">
+              <p class="schedule__item--day">Monday - Friday</p>
+              <p class="schedule__item--time">06:00 AM - 10:00 PM</p>
+            </li>
+            <li class="schedule__item">
+              <p class="schedule__item--day">Saturday - Sunday</p>
+              <p class="schedule__item--time">08:00 AM - 16:00 PM</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="contacts-wrapper">
+          <ul class="contacts-link__list">
+            <li>
+              <a href="tel:+610383766284" class="contacts-link">+61(0) 383 766 284</a>
+            </li>
+            <li>
+              <a href="mailto:noreply@envato.com" class="contacts-link">noreply@envato.com</a>
+            </li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="contacts__item wow rollIn" data-wow-delay="0.9s">
+        <p class="contacts__label contacts__label--color">FoodTruck</p>
+
+        <div class="contacts-wrapper">
+          <h3 class="contacts__title">Los Angeles</h3>
+          <p class="contacts__description">
+            Fusce ut velit laoreet, tempus arcu molestie vulputate
+          </p>
+        </div>
+
+        <div class="contacts-wrapper">
+          <ul class="schedule__list">
+            <li class="schedule__item">
+              <p class="schedule__item--day">Monday - Friday</p>
+              <p class="schedule__item--time">06:00 AM - 10:00 PM</p>
+            </li>
+            <li class="schedule__item">
+              <p class="schedule__item--day">Saturday - Sunday</p>
+              <p class="schedule__item--time">08:00 AM - 16:00 PM</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="contacts-wrapper">
+          <ul class="contacts-link__list">
+            <li>
+              <a href="tel:+610383766284" class="contacts-link">+61(0) 383 766 284</a>
+            </li>
+            <li>
+              <a href="mailto:noreply@envato.com" class="contacts-link">noreply@envato.com</a>
+            </li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="contacts__item wow rollIn" data-wow-delay="1.2s">
+        <p class="contacts__label">Cafe</p>
+
+        <div class="contacts-wrapper">
+          <h3 class="contacts__title">New York</h3>
+          <p class="contacts__description">
+            Fusce ut velit laoreet, tempus arcu molestie vulputate
+          </p>
+        </div>
+
+        <div class="contacts-wrapper">
+          <ul class="schedule__list">
+            <li class="schedule__item">
+              <p class="schedule__item--day">Monday - Friday</p>
+              <p class="schedule__item--time">06:00 AM - 10:00 PM</p>
+            </li>
+            <li class="schedule__item">
+              <p class="schedule__item--day">Saturday - Sunday</p>
+              <p class="schedule__item--time">08:00 AM - 16:00 PM</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="contacts-wrapper">
+          <ul class="contacts-link__list">
+            <li>
+              <a href="tel:+610383766284" class="contacts-link">+61(0) 383 766 284</a>
+            </li>
+            <li>
+              <a href="mailto:noreply@envato.com" class="contacts-link">noreply@envato.com</a>
+            </li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+
+    <div class="contacts__buttons">
+      <button type="button" class="location-btn wow pulse" data-wow-iteration="infinite" data-modal-opn="">
+        Our Locations
+        <svg class="contacts__icon" width="12" height="12">
+          <use href="/icon_defs.c4808b56.svg#icon-arrow"></use>
+        </svg>
+      </button>
+      <button type="button" class="franchise-btn wow pulse" data-wow-iteration="infinite" data-open-franchise="">
+        Franchise
+        <svg class="contacts__icon" width="12" height="12">
+          <use href="/icon_defs.c4808b56.svg#icon-arrow"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- modal-map -->
+
+  <div class="backdrop backdrop-settings is-hidden" data-modal-maps="">
+    <div class="modal-maps modal-settings">
+      <button class="close-btn" data-modal-close="">
+        <svg class="close-icon">
+          <use href="/cross.e03876d5.svg#icon-cross"></use>
+        </svg>
+      </button>
+
+      <ul class="modal-maps__list">
+        <li class="modal-maps__item">
+          <p class="modal__title">Chicago</p>
+          <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47590.11820567064!2d-88.2902242697913!3d41.798522267192496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880efba46145acab%3A0x3f40bc8273792a12!2sChicago%20Premium%20Outlets!5e0!3m2!1sru!2sua!4v1643581019173!5m2!1sru!2sua" style="border: 0" allowfullscreen="" loading="lazy"></iframe>
+        </li>
+        <li class="modal-maps__item">
+          <p class="modal__title">Los Angeles</p>
+          <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105801.2786247445!2d-118.27313507848848!3d34.036432512750864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c626a9d4980f%3A0x3bb7bca5a7f43102!2sLos%20Angeles!5e0!3m2!1sru!2sua!4v1643583372213!5m2!1sru!2sua" style="border: 0" allowfullscreen="" loading="lazy"></iframe>
+        </li>
+        <li class="modal-maps__item">
+          <p class="modal__title">New York</p>
+          <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193396.34806443626!2d-74.02819192458449!3d40.76602888765816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258f9cfcb250d%3A0xdb570ddcb766e3a8!2sNew%20York%20City%20Center!5e0!3m2!1sru!2sua!4v1643583516694!5m2!1sru!2sua" style="border: 0" allowfullscreen="" loading="lazy"></iframe>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- modal-franchise -->
+
+  <div class="backdrop backdrop-settings is-hidden" data-modal-franchise="">
+    <div class="modal-franchis modal-settings">
+      <button class="close-btn" data-close-franchise="">
+        <svg class="close-icon" width="16" height="16">
+          <use href="/cross.e03876d5.svg#icon-cross"></use>
+        </svg>
+      </button>
+
+      <p class="modal-franchis__title">Contact Us</p>
+
+      <ul class="modal-franchis__list">
+        <li>
+          <a href="tel:+610383766284" class="contacts-link">tel: +61(0) 383 766 284</a>
+        </li>
+        <li>
+          <a href="mailto:noreply@envato.com" class="contacts-link">mail: noreply@envato.com</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+    </main>
+
+    <footer>
+  <div class="container centered wow bounceInUp">
+    <div class="wrapper">
+      <p class="footer-preheader">homemade ice cream made</p>
+      <h2 class="footer-header">with passion</h2>
+    </div>
+    <div class="wrapper">
+      <ul class="footer-social_list">
+        <li class="wow flip" data-wow-iteration="infinite" data-wow-duration="1.8s">
+          <a href="#" class="footer-social-links">
+            <svg width="20px" height="20px" class="footer-icon">
+              <use href="/icon_defs.c4808b56.svg#icon-github"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="wow flip" data-wow-iteration="infinite" data-wow-delay="0.6s" data-wow-duration="1.8s">
+          <a href="#" class="footer-social-links">
+            <svg width="20px" height="20px" class="footer-icon">
+              <use href="/icon_defs.c4808b56.svg#icon-telegram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="wow flip" data-wow-iteration="infinite" data-wow-delay="1.2s" data-wow-duration="1.8s">
+          <a href="#" class="footer-social-links">
+            <svg width="20px" height="20px" class="footer-icon">
+              <use href="/icon_defs.c4808b56.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+      <p class="footer-contacts wow heartBeat" data-wow-duration="2s" data-wow-iteration="infinite">
+        Feel free to contact
+        <span class="footer-phone"><a href="tel:+610383766284">+61 (0) 383 766 284</a></span>
+      </p>
+    </div>
+  </div>
+  <div class="footer-copyright wow fadeInLeftBig" data-wow-delay="1s" data-wow-duration="2s">
+    <p class="footer-copyright_text">&copy; 2019 - IceCream. All Rights Reserved.</p>
+  </div>
+</footer>
+
+
+    <!-- Скрипт идёт последним в разметке. В нём уже подключен главный SASS-файл. -->
+
+    <script src="/src.e31bb0bc.js"></script>
+
+    <script src="/read-more.2935406e.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+    <script src="/slick.min.d8b8b7fa.js"></script>
+    <script src="/slick-animation.27100243.js"></script>
+
+    
+
+    <!-- About-md-btn -->
+    <script src="/classie.6bc29fd8.js"></script>
+    <script src="/modalEffects.08240509.js"></script>
+
+    <script src="/header-modal.1cee1c2f.js"></script>
+
+    <script src="/modal-map.2902f556.js"></script>
+    <script src="/modal-franchise.d51f7fbc.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+    <script>new WOW().init();</script>
+  </body>
+</html>
